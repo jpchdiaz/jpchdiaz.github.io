@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Data Page</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Project 1: CDC Obesity Data</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="landing-page.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://jpchdiaz.github.io">Github Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visualization Pages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="comparisons.html">Comparison Page</a>
+              <a class="dropdown-item" href="data-page.html">Data Page</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="vis-page-1.html">Avg. Obesity % by Sex -- Bar</a>
+              <a class="dropdown-item" href="vis-page-2.html">Avg. Obesity % by Sex -- Line</a>
+              <a class="dropdown-item" href="vis-page-3.html">Overweight % vs. Income</a>
+              <a class="dropdown-item" href="vis-page-4.html">Obesity % by Age</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class='container'>
+      <div class='row' id='header'>
+        <div class="box robotgray">
+          <h3>FIPS to State Data File</h3>
+        </div>
+      </div>
+
+        <div class="box robotgray">
+          <h4>About this CSV</h4>
+          <p>Instead of posting the large set of CDC Data which is available for perusal on their site,<br>
+          I've decided to post the FIPS-to-State conversion CSV we took from one of our TA's projects.<br>
+          Combined with cleaning a dataset that uses FIPS codes, it turns the numbers in the source dataset into their proper State Abbreviations.<br>
+          Converted from CSV to HTML using <a href="http://www.convertcsv.com/csv-to-html.htm">this converter</a>.</p>
+        </div>
+
+        <div class="box robotgray">
+          <table class="table table-bordered table-hover table-condensed">
+            <thead><tr><th title="Field #1">fips</th>
+            <th title="Field #2">state_abbr</th>
+            </tr></thead>
+            <tbody><tr>
+            <td align="right">1</td>
+            <td>AL</td>
+            </tr>
+            <tr>
+            <td align="right">2</td>
+            <td>AK</td>
+            </tr>
+            <tr>
+            <td align="right">4</td>
+            <td>AZ</td>
+            </tr>
+            <tr>
+            <td align="right">5</td>
+            <td>AR</td>
+            </tr>
+            <tr>
+            <td align="right">6</td>
+            <td>CA</td>
+            </tr>
+            <tr>
+            <td align="right">8</td>
+            <td>CO</td>
+            </tr>
+            <tr>
+            <td align="right">9</td>
+            <td>CT</td>
+            </tr>
+            <tr>
+            <td align="right">10</td>
+            <td>DE</td>
+            </tr>
+            <tr>
+            <td align="right">12</td>
+            <td>FL</td>
+            </tr>
+            <tr>
+            <td align="right">13</td>
+            <td>GA</td>
+            </tr>
+            <tr>
+            <td align="right">15</td>
+            <td>HI</td>
+            </tr>
+            <tr>
+            <td align="right">16</td>
+            <td>ID</td>
+            </tr>
+            <tr>
+            <td align="right">17</td>
+            <td>IL</td>
+            </tr>
+            <tr>
+            <td align="right">18</td>
+            <td>IN</td>
+            </tr>
+            <tr>
+            <td align="right">19</td>
+            <td>IA</td>
+            </tr>
+            <tr>
+            <td align="right">20</td>
+            <td>KS</td>
+            </tr>
+            <tr>
+            <td align="right">21</td>
+            <td>KY</td>
+            </tr>
+            <tr>
+            <td align="right">22</td>
+            <td>LA</td>
+            </tr>
+            <tr>
+            <td align="right">23</td>
+            <td>ME</td>
+            </tr>
+            <tr>
+            <td align="right">24</td>
+            <td>MD</td>
+            </tr>
+            <tr>
+            <td align="right">25</td>
+            <td>MA</td>
+            </tr>
+            <tr>
+            <td align="right">26</td>
+            <td>MI</td>
+            </tr>
+            <tr>
+            <td align="right">27</td>
+            <td>MN</td>
+            </tr>
+            <tr>
+            <td align="right">28</td>
+            <td>MS</td>
+            </tr>
+            <tr>
+            <td align="right">29</td>
+            <td>MO</td>
+            </tr>
+            <tr>
+            <td align="right">30</td>
+            <td>MT</td>
+            </tr>
+            <tr>
+            <td align="right">31</td>
+            <td>NE</td>
+            </tr>
+            <tr>
+            <td align="right">32</td>
+            <td>NV</td>
+            </tr>
+            <tr>
+            <td align="right">33</td>
+            <td>NH</td>
+            </tr>
+            <tr>
+            <td align="right">34</td>
+            <td>NJ</td>
+            </tr>
+            <tr>
+            <td align="right">35</td>
+            <td>NM</td>
+            </tr>
+            <tr>
+            <td align="right">36</td>
+            <td>NY</td>
+            </tr>
+            <tr>
+            <td align="right">37</td>
+            <td>NC</td>
+            </tr>
+            <tr>
+            <td align="right">38</td>
+            <td>ND</td>
+            </tr>
+            <tr>
+            <td align="right">39</td>
+            <td>OH</td>
+            </tr>
+            <tr>
+            <td align="right">40</td>
+            <td>OK</td>
+            </tr>
+            <tr>
+            <td align="right">41</td>
+            <td>OR</td>
+            </tr>
+            <tr>
+            <td align="right">42</td>
+            <td>PA</td>
+            </tr>
+            <tr>
+            <td align="right">44</td>
+            <td>RI</td>
+            </tr>
+            <tr>
+            <td align="right">45</td>
+            <td>SC</td>
+            </tr>
+            <tr>
+            <td align="right">46</td>
+            <td>SD</td>
+            </tr>
+            <tr>
+            <td align="right">47</td>
+            <td>TN</td>
+            </tr>
+            <tr>
+            <td align="right">48</td>
+            <td>TX</td>
+            </tr>
+            <tr>
+            <td align="right">49</td>
+            <td>UT</td>
+            </tr>
+            <tr>
+            <td align="right">50</td>
+            <td>VT</td>
+            </tr>
+            <tr>
+            <td align="right">51</td>
+            <td>VA</td>
+            </tr>
+            <tr>
+            <td align="right">53</td>
+            <td>WA</td>
+            </tr>
+            <tr>
+            <td align="right">54</td>
+            <td>WV</td>
+            </tr>
+            <tr>
+            <td align="right">55</td>
+            <td>WI</td>
+            </tr>
+            <tr>
+            <td align="right">56</td>
+            <td>WY</td>
+            </tr>
+            <tr>
+            <td align="right">66</td>
+            <td>GU</td>
+            </tr>
+            <tr>
+            <td align="right">72</td>
+            <td>PR</td>
+            </tr>
+            <tr>
+            <td align="right">78</td>
+            <td>VI</td>
+            </tr>
+            </tbody></table>
+        </div>
+
+    <div class='container'>
+      <div class='row' id='footer'>
+        <div class="box robotgray">
+        <a href="landing-page.html">Home</a> || <a href="comparisons.html">Comparison Page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery, Popper, and Bootstrap CDNs -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
